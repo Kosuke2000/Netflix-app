@@ -27,7 +27,6 @@ export const Row = ({ title, fetchUrl, isLargeRow }: Props) => {
     async function fetchData() {
       const request = await axios.get(fetchUrl);
       setMovies(request.data.results);
-      console.log({ request });
       return request;
     }
 
