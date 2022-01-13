@@ -4,9 +4,11 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { Banner } from "../src/components/Banner";
+import { Nav } from "./components/Nav";
 
 ReactDOM.render(
   <React.StrictMode>
+    <Nav />
     <Banner />
     <App />
   </React.StrictMode>,
